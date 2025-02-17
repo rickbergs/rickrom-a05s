@@ -8,8 +8,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # API levels
-BOARD_API_LEVEL := 33
-PRODUCT_SHIPPING_API_LEVEL := 33
+BOARD_API_LEVEL := 31
+PRODUCT_SHIPPING_API_LEVEL := 31
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -102,4 +102,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/samsung/a05s/a05s-vendor.mk)
+$(call inherit-product, vendor/samsung/bengal/bengal-vendor.mk)
