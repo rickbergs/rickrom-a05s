@@ -195,7 +195,8 @@ DEXPREOPT_GENERATE_APEX_IMAGE := true
 #PRODUCT_FULL_TREBLE := true
 
 # VINTF
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
+DEVICE_MATRIX_FILE += $(COMMON_PATH)/compatibility_matrix.xml
 
 # Inherit the proprietary files
 include vendor/samsung/a05s/BoardConfigVendor.mk
