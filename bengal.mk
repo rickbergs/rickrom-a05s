@@ -293,26 +293,52 @@ PRODUCT_PACKAGES += \
     libxml2
 
 # Rootdir
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
+    1K-ST-1.sh \
+    200-ST-1.sh \
+    2K-ST-1.sh \
+    3K-ST-1.sh \
+    500-ST-1.sh \
+    AT_playback_1K.sh \
+    SW-ST-19.sh \
+    SW-ST-20.sh \
+    SW-ST-7.sh \
     init.class_main.sh \
-    init.mmi.boot.sh \
-    init.mmi.laser.sh \
-    init.mmi.touch.sh \
-    init.oem.hw.sh \
+    init.crda.sh \
+    init.kernel.post_boot-bengal-iot.sh \
+    init.kernel.post_boot-bengal.sh \
+    init.kernel.post_boot.sh \
+    init.mdm.sh \
+    init.qcom.class_core.sh \
+    init.qcom.coex.sh \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
+    init.qcom.sdio.sh \
+    init.qcom.sensors.sh \
     init.qcom.sh \
+    init.qcom.usb.sh \
+    init.qti.chg_policy.sh \
     init.qti.dcvs.sh \
+    init.qti.display_boot.sh \
     init.qti.early_init.sh \
-    init.mmi.charge_only.rc \
-    init.mmi.chipset.rc \
-    init.mmi.dalvik.rc \
-    init.mmi.debug.rc \
-    init.mmi.rc \
-    init.qcom.rc \
-    init.recovery.qcom.rc \
-    init.target.rc \
-    ueventd.qcom.rc \
+    init.qti.kernel.debug-bengal.sh \
+    init.qti.kernel.debug.sh \
+    init.qti.kernel.sh \
+    init.qti.media.sh \
+    init.qti.qcv.sh \
+    init.qti.write.sh \
+    install-recovery.sh \
+    libsar.sh \
+    loopback.sh \
+    playback.sh \
+    playback_sweep_sound.sh \
+    record.sh \
+    record_playback.sh \
+    system_dlkm_modprobe.sh \
+    vendor_modprobe.sh \
+    wififtm.sh \
+    wifisar.sh \
+    ueventd.qcom.rc 
 
 # Sensors
 PRODUCT_PACKAGES += \
