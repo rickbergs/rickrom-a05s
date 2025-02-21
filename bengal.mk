@@ -316,7 +316,6 @@ PRODUCT_PACKAGES += \
     init.qcom.sdio.sh \
     init.qcom.sensors.sh \
     init.qcom.sh \
-    init.qcom.usb.sh \
     init.qti.chg_policy.sh \
     init.qti.dcvs.sh \
     init.qti.display_boot.sh \
@@ -339,6 +338,19 @@ PRODUCT_PACKAGES += \
     wififtm.sh \
     wifisar.sh \
     ueventd.qcom.rc 
+
+PRODUCT_PACKAGES += \
+    fstab.emmc \
+    init.a05s.rc \
+    init.qcom.factory.rc \
+    init.qcom.rc \
+    init.qti.kernel.rc \
+    init.qti.ufs.rc \
+    init.samsung.bsp.rc \
+    init.samsung.rc \
+    init.target.rc \
+    init.recovery.qcom.rc \
+    init.recovery.samsung.rc \
 
 # Sensors
 PRODUCT_PACKAGES += \
