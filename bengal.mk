@@ -65,7 +65,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
 # Bootctrl
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
     android.hardware.boot@1.1-impl-qti.recovery \
     android.hardware.boot@1.1-service
@@ -318,7 +318,6 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qti.chg_policy.sh \
     init.qti.dcvs.sh \
-    init.qti.display_boot.sh \
     init.qti.early_init.sh \
     init.qti.kernel.debug-bengal.sh \
     init.qti.kernel.debug.sh \
@@ -414,7 +413,7 @@ PRODUCT_PACKAGES += \
     wpa_supplicant \
     wpa_supplicant.conf
 
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     WifiResCommonOverlay
 
 # WiFi firmware symlinks
