@@ -1,4 +1,4 @@
-# Android device tree for samsung SM-A057G (qssi)
+# Android device tree for Samsung Galaxy A05s SM-A057M (a05s)
 
 ```
 #

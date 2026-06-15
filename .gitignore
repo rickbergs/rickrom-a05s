@@ -1,0 +1,20 @@
+# Relatórios locais
+blob-check.txt
+*.log
+
+# Imagens e backups
+*.img
+*.bin
+*.tar
+*.tar.md5
+*.zip
+*.zst
+*.lz4
+
+# Blobs proprietários gerados
+vendor/
+proprietary/
+
+# Build
+out/
+.tmp/

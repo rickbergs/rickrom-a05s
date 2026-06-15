@@ -11,18 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from qssi device
+# Inherit from a05s device
 $(call inherit-product, device/samsung/a05s/device.mk)
 
 PRODUCT_DEVICE := a05s
 PRODUCT_NAME := lineage_a05s
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-A057G
+PRODUCT_MODEL := SM-A057M
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="a05sxx-user 14 UP1A.231005.007 A057GXXS3CXF1 release-keys"
+    PRIVATE_BUILD_DESC="a05sub-user 15 AP3A.240905.015.A2 A057MUBSCDYJ2 release-keys"
 
-BUILD_FINGERPRINT := samsung/a05sxx/qssi:14/UP1A.231005.007/A057GXXS3CXF1:user/release-keys
+BUILD_FINGERPRINT := samsung/a05sub/a05s:15/AP3A.240905.015.A2/A057MUBSCDYJ2:user/release-keys

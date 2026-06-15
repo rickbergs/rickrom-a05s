@@ -1,4 +1,4 @@
-# Unpinned blobs from a05sxx-user 14 UP1A.231005.007 A057GXXS3CXF1 release-keys
+# Unpinned blobs from a05sub-user 15 AP3A.240905.015.A2 A057MUBSCDYJ2 release-keys
 
 # ACDB
 vendor/etc/acdbdata/bengal_idp/IDP_acdb_cal.acdb
