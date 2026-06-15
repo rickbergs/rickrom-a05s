@@ -60,7 +60,6 @@ TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
 TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/system_ext.prop
 TARGET_SYSTEM_DLKM_PROP += $(COMMON_PATH)/system_dlkm.prop
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
-TARGET_ODM_DLKM_PROP += $(COMMON_PATH)/odm_dlkm.prop
 TARGET_VENDOR_DLKM_PROP += $(COMMON_PATH)/vendor_dlkm.prop
 
 # Recovery

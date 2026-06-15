@@ -427,5 +427,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
-# Get non-open-source specific aspects
-$(call inherit-product, vendor/samsung/bengal-common/bengal-vendor.mk)
+# Proprietary files are provided by vendor/samsung/a05s.
+# The A057M tree currently uses one unified vendor tree.
