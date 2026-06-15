@@ -1,5 +1,5 @@
 # Relatórios locais
-blob-check.txt
+blob-check*.txt
 *.log
 
 # Imagens e backups
@@ -18,3 +18,4 @@ proprietary/
 # Build
 out/
 .tmp/
+device-paths.txt
