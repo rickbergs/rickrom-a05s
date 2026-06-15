@@ -1,0 +1,7 @@
+# Blobs proprietários extraídos localmente
+/proprietary/
+
+# Relatórios e hashes locais
+*.log
+*.sha256
+*.txt.local
