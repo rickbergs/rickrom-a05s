@@ -1,0 +1,39 @@
+# RickROM - manter local, nunca subir
+
+# firmware/build/release
+*.img
+*.img.lz4
+*.tar
+*.tar.md5
+*.zip
+*.7z
+*.rar
+*.bin
+*.pit
+*.apk
+*.apex
+*.zst
+
+# pastas locais grandes/sensíveis
+partition-backups/
+releases/
+vendor-blobs/
+prebuilt-tools/
+git-history-archives/
+device-tree/
+common-platform-bengal/
+build-tools/
+odin-v1.0/
+extracted/
+extracted-rw/
+auditoria*/
+tools/
+
+# cache/sistema
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+lost+found/
